@@ -1,6 +1,6 @@
-exports.homePage = (req, res, next) {
+exports.homePage = (req, res, next) => {
   res.render('index', { 
-    title: 'Test 1',
-    message: 'henlo', 
+    title: 'Home Page',
+    message: 'Welcome to the dankest page on the interwebs', 
   });
 };
